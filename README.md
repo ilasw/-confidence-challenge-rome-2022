@@ -19,9 +19,8 @@ L'unico requisito per partecipare ai workshop e alle sfide è che tu sappia già
 ## CRITERI DI VALUTAZIONE
 
 * **comprensione requisiti**: il risultato finale soddisfa tutti i requisiti e non contiene bug 
-* **Best practices**: JS / React / Redux
-* **clean coding**
-* **BONUS**: fully typed
+* **Best practices** & **clean coding**
+* **fully typed**
 * **BONUS**: per soluzioni "geniali" (punto bonus per qualche trick/soluzione che colpisce particolarmente la giuria)
 
 
