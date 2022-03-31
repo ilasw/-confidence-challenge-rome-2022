@@ -1,0 +1,145 @@
+{
+  "workspaces": [
+    {
+      "id": 1,
+      "name": "Workspace 1",
+      "description": "lorem.."
+    },
+    {
+      "name": "Workspace 2",
+      "description": "description...",
+      "id": 2
+    }
+  ],
+  "activities": [
+    {
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 1,
+        "name": "Fabio Biondi"
+      },
+      "title": "Title 1",
+      "description": "Lorem ipsum ...",
+      "status": null,
+      "priority": "high",
+      "duration": null,
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 2,
+        "name": "Lorenzo Balsano"
+      },
+      "title": "Activity 2",
+      "description": "Lorem ipsum ...",
+      "status": null,
+      "priority": null,
+      "duration": null,
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 2,
+        "name": "Lorenzo Balsano"
+      },
+      "title": "Activity 3",
+      "description": "lorem ..",
+      "status": null,
+      "priority": null,
+      "duration": null,
+      "id": 3
+    },
+    {
+      "workspaceId": 2,
+      "assignedTo": {
+        "id": 1,
+        "name": "Fabio Biondi"
+      },
+      "title": "Title 1",
+      "description": "Lorem ipsum ...",
+      "status": null,
+      "priority": "high",
+      "duration": null,
+      "id": 4
+    },
+    {
+      "workspaceId": 2,
+      "assignedTo": {
+        "id": 2,
+        "name": "Lorenzo Balsano"
+      },
+      "title": "Activity 2",
+      "description": "Lorem ipsum ...",
+      "status": null,
+      "priority": null,
+      "duration": null,
+      "id": 5
+    },
+    {
+      "workspaceId": 2,
+      "assignedTo": {
+        "id": 2,
+        "name": "Lorenzo Balsano"
+      },
+      "title": "Activity 3",
+      "description": "lorem ..",
+      "status": null,
+      "priority": null,
+      "duration": null,
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Fabio Biondi"
+    },
+    {
+      "id": 2,
+      "name": "Lorenzo Balsano"
+    }
+  ],
+  "resetActivities": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 1,
+        "name": "Fabio Biondi"
+      },
+      "title": "Title 1",
+      "description": "Lorem ipsum ...",
+      "status": null,
+      "priority": "high",
+      "duration": null
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 2,
+        "name": "Lorenzo Balsano"
+      },
+      "title": "Activity 2",
+      "description": "Lorem ipsum ...",
+      "status": null,
+      "priority": null,
+      "duration": null
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 2,
+        "name": "Lorenzo Balsano"
+      },
+      "title": "Activity 3",
+      "description": "lorem ..",
+      "status": null,
+      "priority": null,
+      "duration": null
+    }
+  ]
+}
