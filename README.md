@@ -21,7 +21,7 @@ L'unico requisito per partecipare ai workshop e alle sfide è che tu sappia già
 * **comprensione requisiti**: il risultato finale soddisfa tutti i requisiti e non contiene bug 
 * **Best practices** & **clean coding**
 * **fully typed**
-* **BONUS**: per soluzioni "geniali" (punto bonus per qualche trick/soluzione che colpisce particolarmente la giuria)
+* **smart solutions**: soluzioni interessanti, trick o miglioramenti a UI e UX che hanno particolarmente colpito la giuria
 
 
 ---
