@@ -46,7 +46,7 @@ npm start
 Vengono fornite le API REST necessarie al funzionamento, i types e un layout base per la gestione dei workspace di lavoro. 
 Il tuo goal è quello di completare la schermata seguendo le indicazioni seguenti e guardando il risultato finale che vogliamo ottenere prendendo spunto dalla gif animata:
  
-![1.workspaces](https://github.com/fb-talks/redux-time-tracker-confidence/blob/master/_assets/animations/1.workspace-crud.gif)
+![1.workspaces](https://github.com/SoulDever/confidence-challenge-rome-2022/blob/master/_assets/animations/1.workspace-crud.gif)
 
 * La pagina che dovrai completare è visibile all'url [http://localhost:3000/](http://localhost:3000/) ed è disponibile nel componente `src/pages/workspaces/Workspace.tsx`
 * Per utilizzare le API REST aprire il file `/src/utils/workspaces.actions.ts` in cui troverai delle funzioni dimostrative che sfruttano gli endpoint REST con i parametri necessari al loro funzionamento.
@@ -82,7 +82,7 @@ Avete già a disposizione il layout JSX, i type e le funzioni per invocare le AP
 
 Puoi vedere il risultato finale che dovresti ottenere nell'animazione sottostante:
 
-![Activity CRUD](https://github.com/fb-talks/redux-time-tracker-confidence/blob/master/_assets/animations/2.activities-crud.gif)
+![Activity CRUD](https://github.com/SoulDever/confidence-challenge-rome-2022/blob/master/_assets/animations/2.activities-crud.gif)
 
 
 #### REQUISITI:
@@ -105,7 +105,7 @@ Non devi, preoccuparti di:
 
 Gestire la modifica dei campi `title`, `description`, `assignedTo` e `priority` di un'attività già creata.
 
-![Activity CRUD](https://github.com/fb-talks/redux-time-tracker-confidence/blob/master/_assets/animations/3.activities-edit.gif)
+![Activity CRUD](https://github.com/SoulDever/confidence-challenge-rome-2022/blob/master/_assets/animations/3.activities-edit.gif)
 
 
 #### REQUISITI:
@@ -137,7 +137,7 @@ Di seguito alcuni esempi che mostrano il dispatch dell'azione `setField` che dov
 
 Creare un componente riutilizzabile per la gestione inline dell'editing  dei campi `title` e `description` come mostrato nella gif seguente:
 
-![inline editing](https://github.com/fb-talks/redux-time-tracker-confidence/blob/master/_assets/animations/3.activities-edit.gif)
+![inline editing](https://github.com/SoulDever/confidence-challenge-rome-2022/blob/master/_assets/animations/3.activities-edit.gif)
 
 A titolo esemplificativo potresti creare un componente da utilizzare al posto di un elemento `input` in questo modo:
 
@@ -158,7 +158,7 @@ A titolo esemplificativo potresti creare un componente da utilizzare al posto di
 
 Gestire il time tracking  delle attività come mostrato nella GIF sottostante e seguendo i requisiti:
 
-![Timer](https://github.com/fb-talks/redux-time-tracker-confidence/blob/master/_assets/animations/4.activities-timer.gif)
+![Timer](https://github.com/SoulDever/confidence-challenge-rome-2022/blob/master/_assets/animations/4.activities-timer.gif)
 
 #### REQUISITI
 
