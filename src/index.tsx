@@ -2,14 +2,17 @@ import './index.css';
 import 'font-awesome/css/font-awesome.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { Action, combineReducers, configureStore, ThunkAction } from '@reduxjs/toolkit';
+import {Provider} from 'react-redux';
+import {Action, combineReducers, configureStore, ThunkAction} from '@reduxjs/toolkit';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
+import {activitiesStore} from "./store";
+import {usersStore} from "./store/users";
 
 const rootReducer = combineReducers({
   workspaces: () => [],
-  activity: () => ({})
+  activity: activitiesStore.reducer,
+  users: usersStore.reducer,
 });
 
 export const store = configureStore({
@@ -21,10 +24,10 @@ export type RootState = ReturnType<typeof rootReducer>
 export type AppThunk = ThunkAction<void, RootState, null, Action<string>>
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
+    <Provider store={store}>
+      <App/>
+    </Provider>,
+    document.getElementById('root')
 );
 
 reportWebVitals();

@@ -18,7 +18,8 @@ export interface Activity {
 }
 
 export type Status = 'running' | 'completed' | 'paused' | null;
-export type Priority = 'high' | 'middle' | 'low';
+export const priorityValues = ['high', 'middle', 'low'] as const;
+export type Priority = typeof  priorityValues;
 
 export const priorityColors = {
   high: 'red',

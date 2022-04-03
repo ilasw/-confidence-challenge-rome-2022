@@ -13,45 +13,6 @@
   ],
   "activities": [
     {
-      "workspaceId": 1,
-      "assignedTo": {
-        "id": 1,
-        "name": "Fabio Biondi"
-      },
-      "title": "Title 1",
-      "description": "Lorem ipsum ...",
-      "status": null,
-      "priority": "high",
-      "duration": null,
-      "id": 1
-    },
-    {
-      "workspaceId": 1,
-      "assignedTo": {
-        "id": 2,
-        "name": "Lorenzo Balsano"
-      },
-      "title": "Activity 2",
-      "description": "Lorem ipsum ...",
-      "status": null,
-      "priority": null,
-      "duration": null,
-      "id": 2
-    },
-    {
-      "workspaceId": 1,
-      "assignedTo": {
-        "id": 2,
-        "name": "Lorenzo Balsano"
-      },
-      "title": "Activity 3",
-      "description": "lorem ..",
-      "status": null,
-      "priority": null,
-      "duration": null,
-      "id": 3
-    },
-    {
       "workspaceId": 2,
       "assignedTo": {
         "id": 1,
@@ -89,6 +50,64 @@
       "priority": null,
       "duration": null,
       "id": 6
+    },
+    {
+      "duration": null,
+      "priority": null,
+      "status": null,
+      "id": 10
+    },
+    {
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 1,
+        "name": "Fabio Biondi"
+      },
+      "title": "Title 1",
+      "description": "Lorem ipsum ... provanfmwf",
+      "status": null,
+      "priority": "high",
+      "duration": null,
+      "id": 11
+    },
+    {
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 2,
+        "name": "Lorenzo Balsano"
+      },
+      "title": "Activity 2",
+      "description": "Lorem ipsum ...",
+      "status": null,
+      "priority": "high",
+      "duration": null,
+      "id": 12
+    },
+    {
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 2,
+        "name": "Lorenzo Balsano"
+      },
+      "title": "Activity 3",
+      "description": "lorem ..",
+      "status": null,
+      "priority": null,
+      "duration": null,
+      "id": 13
+    },
+    {
+      "workspaceId": 1,
+      "assignedTo": {
+        "id": 2,
+        "name": "Lorenzo Balsano"
+      },
+      "title": "Activity 3",
+      "description": "lorem ..",
+      "status": null,
+      "priority": null,
+      "duration": null,
+      "id": 14
     }
   ],
   "users": [

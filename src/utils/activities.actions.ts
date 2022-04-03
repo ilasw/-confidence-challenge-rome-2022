@@ -47,7 +47,7 @@ export const cloneActivity = async (activity: Activity) => {
  * @param fieldValue  new field value
  */
 export const setField = async (id: number, fieldName: keyof Activity, fieldValue: any) => {
-  await Axios.patch(`http://localhost:3001/activities/${id}`, { [fieldName]: fieldValue })
+  return await Axios.patch<Activity>(`http://localhost:3001/activities/${id}`, { [fieldName]: fieldValue })
   // es. azione:
   // dispatch(ActivitiesActions.setFieldSuccess({ id, fieldName, fieldValue }))
 };
